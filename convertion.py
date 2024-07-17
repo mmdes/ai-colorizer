@@ -17,7 +17,7 @@ for a in range(690):
 	nomes=".ppm"
 	final=c+nome
 	#print(final)
-	img = cv2.imread('/home/matheus/Documentos/colorizer/database/original/' + final)
+	img = cv2.imread('./database/original/' + final)
 	#cv2.imshow("Original", img)
 	img=cv2.cvtColor(img,cv2.COLOR_RGB2YCrCb)
 	#y = img[:,:,0]; 
@@ -41,7 +41,7 @@ for a in range(690):
 	saida="a"
 	final=saida+c+nomes
 	#print(final)
-	cv2.imwrite('/home/matheus/Documentos/colorizer/database/converted/' + final, img_redimensionada)
+	cv2.imwrite('./database/converted/' + final, img_redimensionada)
 	#cv2.imshow("test", y)
 	#cv2.waitKey(0)
 
