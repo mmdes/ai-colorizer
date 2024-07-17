@@ -10,3 +10,4 @@ Projeto apresentado na matéria de Inteligência Artificial durante minha gradua
 4. executar o script main.py
 
 # Resultados
+<img src="https://github.com/user-attachments/assets/f5dce691-c22c-4a9c-8a6d-2454cf8513ee" alt="Predições usando a rede neural treinada">
