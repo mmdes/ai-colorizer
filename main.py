@@ -48,7 +48,7 @@ regressor.compile(loss='mean_squared_error',optimizer='adam',metrics=['mean_squa
 regressor.fit(lista_treinamento,listap_treinamento,batch_size=300,epochs =5,validation_data=(lista_teste,listap_teste))
 
 #Leitura de imagem para colorir
-img=cv2.imread('./for_test/s3.jpg')
+img=cv2.imread('./for_test/s2.jpg')
 img=cv2.cvtColor(img,cv2.COLOR_RGB2YCrCb)
 listax=[]
 #listapx=[]
@@ -71,5 +71,5 @@ cr=cr[7:660,7:660]
 
 imgx=cv2.merge([y,cr,teste])
 imgx=cv2.cvtColor(imgx,cv2.COLOR_YCrCb2RGB)
-cv2.imwrite('./results/colorida3.jpg',imgx)
+cv2.imwrite('./results/colorida2.jpg',imgx)
 print('Colorida!')
